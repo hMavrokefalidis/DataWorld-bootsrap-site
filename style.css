@@ -12,6 +12,37 @@
   height: 200px;
 }
 
+#decisionTree{
+  width: 800px;
+  height: 450px;
+}
+
+#linearRegression{
+  width: 600px;
+  height: 450px;
+}
+body{
+  background: linear-gradient(lightblue, gray);
+}
+
+#classifications{
+  width: 600px;
+  height: 250px;
+}
+
+#wow{
+  background-image: url("pictures/matrixBlue.jpg");
+  background-size: cover;
+}
+
 h1{
+  font-family: billabong;
+}
+
+h2{
+  font-family: billabong;
+}
+
+h4{
   font-family: billabong;
 }

@@ -11,6 +11,7 @@
     <title>We love data</title>
   </head>
   <body>
+
   <!–– Navbar with active symbols ––>
   <nav class="nav nav-pills flex-column flex-sm-row">
     <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
@@ -19,7 +20,7 @@
   </nav>
 
   <!–– Fluid heading with brace to separate the text  ––>
-  <div class="container-fluid jumbotron">
+  <div id="wow" class="container-fluid jumbotron">
     <div class="document">
       <h1>DataWorld</h1>
       <hr class="brace">
@@ -35,4 +36,135 @@
     </div>
   </div>
 
+  <!–– Creating a row with 2 columns for decision tree  ––>
+  <div class="container-fluid">
+    <h1> Data techniques</h1>
+    <hr class="brace">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Decision Tree</h2>
+          <p>A decision tree is a supervised learning method for classification. Algorithms of this variety create trees that predict the result
+            of an input vector based on decision rules inferred from the features present in the data. Decision trees are useful because they're
+            easy to visualize so you can understand the factors that lead to a result.</p>
+        </div>
+        <div class="col-md-8">
+          <img id="decisionTree" src="pictures\decisionTree.png" alt="Decision Tree">
+        </div>
+      </div>
+
+      <!–– Decision tree information  ––>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Bagging</h4>
+          <p>Bagging is the way decrease the variance of your prediction by generating additional data for training from your original dataset using
+             combinations with repetitions to produce multistep of the same carnality/size as your original data. By increasing the size of your training
+              set you can’t improve the model predictive force, but just decrease the variance, narrowly tuning the prediction to expected outcome.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Boosting </h4>
+          <p>Boosting is an approach to calculate the output using several different models and then average the result using a weighted average approach.
+            By combining the advantages and pitfalls of these approaches by varying your weighting formula you can come up with a good predictive force for
+            a wider range of input data, using different narrowly tuned models.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Random forest</h4>
+          <p>The random forest algorithm is actually very similar to bagging. Also here, you draw random bootstrap samples of your training set.
+            However, in addition to the bootstrap samples, you also draw a random subset of features for training the individual trees; in bagging, you give
+            each tree the full set of features. Due to the random feature selection, you make the trees more independent of each other compared to regular bagging,
+            which often results in better predictive performance (due to better variance-bias trade-offs) and it’s also faster, because each tree learns only from a
+             subset of features.</p>
+        </div>
+      </div>
+      <hr class="brace">
+    </div>
+
+    <!–– Information Regression using similar methods  ––>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="linearRegression" src="pictures\linearRegression.png" alt="Linear regression">
+        </div>
+        <div class="col-md-6">
+          <h2>Linear Regression</h2><br>
+          <p>In statistics, linear regression is a method to predict a target variable by fitting the best linear relationship between the dependent and independent
+            variable. The best fit is done by making sure that the sum of all the distances between the shape and the actual observations at each point is as small
+             as possible. The fit of the shape is “best” in the sense that no other position would produce less error given the choice of shape. 2 major types of
+              linear regression are Simple Linear Regression and Multiple Linear Regression. Simple Linear Regression uses a single independent variable to predict
+               a dependent variable by fitting a best linear relationship. Multiple Linear Regression uses more than one independent variable to predict a dependent
+                variable by fitting a best linear relationship.</p>
+        </div>
+      </div>
+
+      <!––  Un-ordered list into a column half, ordered list for sub-categories  ––>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>Pick any 2 things that you use in your daily life and that are related. Like, I have data of my monthly spending, monthly income and the number
+            of trips per month for the last 3 years. Now I need to answer the following questions:</p>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>What will be my monthly spending for next year?</li>
+            <li>Which factor (monthly income or number of trips per month) is more important in deciding my monthly spending?</li>
+            <li>How monthly income and trips per month are correlated with monthly spending?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr class="brace">
+
+    <!–– In this container, there is information about classification  ––>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Classification</h2>
+          <p>Classification is a data mining technique that assigns categories to a collection of data in order to aid in more accurate predictions and analysis.
+             Also sometimes called a Decision Tree, classification is one of several methods intended to make the analysis of very large datasets effective.
+              2 major Classification techniques stand out: Logistic Regression and Discriminant Analysis.</p>
+        </div>
+        <div class="col-md-6">
+          <img id="classifications" src="pictures\classification.png" alt="Linear regression">
+        </div>
+      </div>
+
+      <!––  Un-ordered list into a column half, ordered list for sub-categories  ––>
+
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>Logistic Regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).
+                Like all regression analyses, the logistic regression is a predictive analysis. Logistic regression is used to describe data and to
+                explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+                Types of questions that a logistic regression can examine:</li><br>
+              <ol>
+                <li>How does the probability of getting lung cancer (Yes vs No) change for every additional pound of overweight
+                     and for every pack of cigarettes smoked per day?</li><br>
+                <li>Which factor (monthly income or number of trips per month) is more important in deciding my monthly spending?</li><br>
+                <li>How monthly income and trips per month are correlated with monthly spending?</li>
+              </ol>
+            </ul>
+           </div>
+          <div class="col-md-6">
+            <ul>
+              <li>In Discriminant Analysis, 2 or more groups or clusters or populations are known a priori and 1 or more new observations are classified into
+                1 of the known populations based on the measured characteristics. Discriminant analysis models the distribution of the predictors X separately
+                in each of the response classes, and then uses Bayes’ theorem to flip these around into estimates for the probability of the response category given
+                 the value of X. Such models can either be linear or quadratic.</li><br>
+                <ol>
+                  <li>Linear Discriminant Analysis computes “discriminant scores” for each observation to classify what response variable class it is in.
+                     These scores are obtained by finding linear combinations of the independent variables. It assumes that the observations within each class are
+                      drawn from a multivariate Gaussian distribution and the covariance of the predictor variables are common across all k levels of the response
+                       variable Y.</li><br>
+                  <li>Quadratic Discriminant Analysis provides an alternative approach. Like LDA, QDA assumes that the observations from each class of Y are
+                     drawn from a Gaussian distribution. However, unlike LDA, QDA assumes that each class has its own covariance matrix. In other words, the
+                     predictor variables are not assumed to have common variance across each of the k levels in Y.</li>
+                </ol>
+              </ul>
+             </div>
+          </div>
+      </div>
+    </div>
 </html>
