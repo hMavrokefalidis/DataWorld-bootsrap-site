@@ -1,0 +1,17 @@
+.row {
+  margin-bottom: 20px;
+}
+
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#dataHeader{
+  width: 200px;
+  height: 200px;
+}
+
+h1{
+  font-family: billabong;
+}
