@@ -17,6 +17,20 @@
   height: 450px;
 }
 
+#redditLogo{
+  width: 187px;
+  height: 187px;
+}
+
+
+
+body { margin: 0; padding: 0; }
+
+#footerr{
+  background-color: 	#303030 !important;
+  color: white !important;
+}
+
 #linearRegression{
   width: 600px;
   height: 450px;
@@ -33,6 +47,11 @@ body{
 #wow{
   background-image: url("pictures/matrixBlue.jpg");
   background-size: cover;
+}
+
+#courseralogo{
+  width: 400px;
+  height: 75px;
 }
 
 #vizdata{
