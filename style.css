@@ -7,22 +7,24 @@
   margin-bottom: 0;
 }
 
+a{
+  color: blue;
+}
+
 #dataHeader{
   width: 200px;
   height: 200px;
 }
 
 #decisionTree{
-  width: 800px;
-  height: 450px;
+  width: 600px;
+  height: 325px;
 }
 
 #redditLogo{
   width: 187px;
   height: 187px;
 }
-
-
 
 body { margin: 0; padding: 0; }
 
@@ -39,14 +41,20 @@ body{
   background: linear-gradient(lightblue, gray);
 }
 
+#jumbodectree{
+  background-image: url("pictures/matrixBlue.jpg");
+  background-size: cover;
+}
+
 #classifications{
   width: 600px;
   height: 250px;
 }
 
-#wow{
+#jumbomain{
   background-image: url("pictures/matrixBlue.jpg");
   background-size: cover;
+  text-align: center;
 }
 
 #courseralogo{
