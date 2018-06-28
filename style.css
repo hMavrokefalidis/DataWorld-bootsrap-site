@@ -7,11 +7,77 @@
   margin-bottom: 0;
 }
 
+a{
+  color: blue;
+}
+
 #dataHeader{
   width: 200px;
   height: 200px;
 }
 
+#decisionTree{
+  width: 600px;
+  height: 325px;
+}
+
+#redditLogo{
+  width: 187px;
+  height: 187px;
+}
+
+body { margin: 0; padding: 0; }
+
+#footerr{
+  background-color: 	#303030 !important;
+  color: white !important;
+}
+
+#linearRegression{
+  width: 600px;
+  height: 450px;
+}
+body{
+  background: linear-gradient(lightblue, gray);
+}
+
+#jumbodectree{
+  background-image: url("pictures/matrixBlue.jpg");
+  background-size: cover;
+}
+
+#classifications{
+  width: 600px;
+  height: 250px;
+}
+
+#jumbomain{
+  background-image: url("pictures/matrixBlue.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+#courseralogo{
+  width: 400px;
+  height: 75px;
+}
+
+#vizdata{
+  color: red;
+}
+
 h1{
   font-family: billabong;
 }
+
+h2{
+  font-family: billabong;
+}
+
+h4{
+  font-family: billabong;
+}
+
+.carousel-item{
+  min-height:300px; background:#ccc;
+ }
